@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 8d21c100c993fba9637cacbc6628559c6ef072e1
 
 trigger:
 - master
@@ -24,8 +27,13 @@ steps:
     sudo apt-get install dotnet-runtime-3.1    
   displayName: 'Installing Dotnet SDK and Runtime'
 - script: | 
+<<<<<<< HEAD
     cd asgard-test && dotnet test
    displayName: 'Tests'
+=======
+    cd asrgard-test && dotnet test
+  displayName: 'Tests'
+>>>>>>> 8d21c100c993fba9637cacbc6628559c6ef072e1
 - script: |
     cd ../asgard && dotnet build
   displayName: 'Build'
