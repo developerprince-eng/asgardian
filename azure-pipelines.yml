@@ -30,8 +30,5 @@ steps:
     cd asgard-test && dotnet test
   displayName: 'Tests'
 - script: |
-    cd asgard-test && dotnet test
-  displayName: 'Tests'
-- script: |
-    cd ../asgard && dotnet build
+    cd asgard && dotnet build
   displayName: 'Build'
