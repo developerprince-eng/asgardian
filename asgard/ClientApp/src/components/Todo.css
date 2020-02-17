@@ -1,0 +1,25 @@
+.todo-add-form{
+    position: relative; 
+    border-radius: 20px;
+    background: #41d6ea;
+    margin: 0 auto;
+    width: 80%;
+    height: 380px;
+  }
+  .todo-add-form form{
+     border-radius: 20px;
+  }
+  .todo-add-form input{
+    margin-top: 70px;
+    border-radius: 50px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .todo-add-form .td-form-btn{
+    position: absolute;
+    right: 10%; 
+    bottom: 20%; 
+    background: #235E8E;
+    width: 10% !important;
+  }
